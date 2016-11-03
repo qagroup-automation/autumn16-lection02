@@ -7,16 +7,16 @@ public class ExampleRunner2 {
 		Car car = new Car();
 		System.out.println(car.getSpeed());
 		
-		car.accelerateBy(90);
+		car.increaseSpeedBy(90);
 		System.out.println(car.getSpeed());
 		
-		car.accelerateBy(90);
+		car.increaseSpeedBy(90);
 		System.out.println(car.getSpeed());
 		
-		car.accelerateBy(90);
+		car.increaseSpeedBy(90);
 		System.out.println(car.getSpeed());
 		
-		car.accelerateBy(160);
+		car.increaseSpeedBy(160);
 		System.out.println(car.getSpeed());
 		
 		if(car.getSpeed() > 120)
