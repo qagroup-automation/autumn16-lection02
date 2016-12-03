@@ -6,6 +6,12 @@ public class Car {
 	public static final int MAX_SPEED = 140;
 
 	public Car() {
+		System.out.println("CAR HAS BEEN CREATED");
+	}
+
+	public Car(int initialSpeed) {
+		System.out.println("CAR HAS BEEN CREATED WITH INITIAL SPEED " + initialSpeed);
+		this.speed = initialSpeed;
 	}
 
 	public void increaseSpeedBy(int value) {
